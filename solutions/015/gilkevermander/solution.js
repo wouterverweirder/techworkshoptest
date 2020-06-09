@@ -12,7 +12,8 @@ const draw = function (ctx) {
   colors.forEach((color, index) => {
     ctx.beginPath();
     ctx.strokeStyle = color;
-    ctx.arc(100, 100, 65 + index * 5, Math.PI, (Math.PI / 2) * 3);
+    ctx.fillStyle = "#b71c1c";
+    ctx.fillRect(10, 10, 80, 80);
     ctx.stroke();
   });
 

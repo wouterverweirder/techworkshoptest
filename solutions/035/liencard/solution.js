@@ -14,11 +14,9 @@ function roundedRect(ctx, x, y, width, height, radius, color) {
 }
 
 const draw = function (ctx) {
-  roundedRect(ctx, 10, 20, 80, 40, 5, "#0d47a1");
-  roundedRect(ctx, 20, 30, 60, 40, 5, "#ef6c00");
-  roundedRect(ctx, 30, 40, 40, 40, 5, "#b71c1c");
-  roundedRect(ctx, 40, 50, 20, 40, 5, "#2196f3");
-
+  roundedRect(ctx, 5, 10, 80, 80, 5, "#F44611");
+  roundedRect(ctx, 15, 20, 60, 60, 5, "#F44611");
+  
   return ctx;
 };
 
